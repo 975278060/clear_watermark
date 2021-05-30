@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "min-desc-input": "/components/min-collapse/min-desc-input"
+  }
+}

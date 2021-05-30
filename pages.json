@@ -1,0 +1,46 @@
+{
+	"pages": [
+		{
+			"path": "pages/unicorn-base/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}
+	    ,{
+            "path" : "pages/unicorn-base/about",
+            "style" : {
+				"navigationStyle": "custom"
+			}
+        }
+        ,{
+            "path" : "pages/unicorn-base/me",
+            "style" : {
+				"navigationStyle": "custom"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "去水印工具助手",
+		"navigationBarBackgroundColor": "#0152D9",
+		"backgroundColor": "#0152D9"
+	},
+	"tabBar": {
+		"selectedColor": "#0152D9",
+		"color":"#aaaaaa",
+		"list": [
+			{
+				"pagePath": "pages/unicorn-base/index",
+				"iconPath": "/static/unicorn-base/index/icon-home.png",
+				"selectedIconPath": "/static/unicorn-base/index/icon-home-selected.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/unicorn-base/about",
+				"iconPath": "/static/unicorn-base/tabbar/about.png",
+				"selectedIconPath": "/static/unicorn-base/tabbar/about_cur.png",
+				"text": "我的"
+			}
+		]
+	}
+}

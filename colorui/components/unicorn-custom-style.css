@@ -1,0 +1,17 @@
+.cu-custom-class-unicorn-page-shop-jd{
+	background-color: #0f1A1E;
+	color: #ffffff;
+}
+
+.cu-custom-class-unicorn-page-order{
+	box-shadow: 6upx 6upx 8upx rgba(204, 69, 59, 0) !important;
+	background-image: linear-gradient(45deg, #fe3443, #ff376f);
+	color: #ffffff;
+	position:fixed;
+	z-index: 999;
+}
+
+.cu-custom-class-unicorn-page-video-slide{
+	background-color: #ffffff;
+	color: #000000;
+}

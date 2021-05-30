@@ -1,0 +1,1 @@
+<view class="content data-v-00f4973f" style="{{'background-color:'+('#F5F5F5')+';'}}"><view class="tips data-v-00f4973f"><label class="iconfont iconlaba _span data-v-00f4973f"></label></view><view class="text data-v-00f4973f"><view style="{{'animation-duration:'+(speed)+';'}}" class="_p data-v-00f4973f"><rich-text nodes="{{message}}"></rich-text></view></view></view>
