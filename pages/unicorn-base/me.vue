@@ -1,63 +1,54 @@
 <template>
-	<view style="background-color: #ffffff">
-		<uni-forms ref="form" :value="formData" :rules="rules">
-			<uni-easyinput v-model="value" :clearable="true"focus clearable="true" placeholder="请输入内容1"></uni-easyinput>
+	<view style="padding-top:14%">
 
-			<button @click="submit">Submit</button>
-		</uni-forms>
+		<hx-navbar title="关于该小程序" :fixed="true" :background-color="[[28, 187, 180],[141, 198, 63]]" color="#ffffff" />
+
+		<view class='margin-xl bg-white padding-xl radius shadow-lg'>
+
+
+		  <view class='text-content'>
+		    <view>Hi！你好~欢迎使用去水印助手！</view>
+		    <view class='margin-top-sm'>该项目是由<span style="font-weight: 900;color: red">个人开发者</span>以学习为目的打造的一款自用的去水印工具集合，后续会不断添加各种产品的去水印或者图片等其他有用的内容。</view>
+			  <view class='margin-top-sm'>喜欢或者有其他建议的朋友可以关注公众号<span style="font-weight: 900;color: red">“萌萌动漫”</span>给我留言哦~</view>
+
+			<view class='margin-top-sm'>在此郑重承诺该小程序功能永久免费！</view>
+			  <view class='margin-top-sm'>更多功能敬请期待！！!</view>
+			<view class="cu-list grid col-2 no-border margin-top">
+				<view class="cu-item" v-for="(item,index) in logoList" :key="index"
+				style="display: flex;align-items: center;justify-content: center;">
+					<image class="ibanimg" mode="aspectFill" :src="item.logoUrl"></image>
+					<text>{{item.name}}</text>
+				</view>
+			</view>
+			
+			<view class='margin-top-sm' style="text-align: center;font-size: 16px;">热爱可抵岁月漫长</view>
+		  </view>
+		</view>
 	</view>
 </template>
+
 <script>
 	export default {
 		data() {
 			return {
-				clearable:true,
-				formData: {
-					name: '',
-					email: 'dcloud@email.com'
-				},
-				rules: {
-					// 对name字段进行必填验证
-					name: {
-						rules: [{
-							required: true,
-							errorMessage: '请输入姓名',
-						},
-							{
-								minLength: 3,
-								maxLength: 5,
-								errorMessage: '姓名长度在 {minLength} 到 {maxLength} 个字符',
-							}
-						]
-					},
-					// 对email字段进行必填验证
-					email: {
-						rules: [{
-							format: 'email',
-							errorMessage: '请输入正确的邮箱地址',
-						}]
+				logoList:[
+					{
+						logoUrl: "../../static/image/1111.jpg",
+						name:"萌萌动漫"
+					},{
+						logoUrl: "../../static/unicorn-base/about/logo-colorUI.png",
+						name:"ColorUI"
 					}
-				}
-			}
-		},
-		methods: {
-			/**
-			 * 复写 binddata 方法，如果只是为了校验，无复杂自定义操作，可忽略此方法
-			 * @param {String} name 字段名称
-			 * @param {String} value 表单域的值
-			 */
-			// binddata(name,value){
-			// 通过 input 事件设置表单指定 name 的值
-			//   this.$refs.form.setValue(name, value)
-			// },
-			// 触发提交表单
-			submit() {
-				this.$refs.form.submit().then(res=>{
-					console.log('表单数据信息：', res);
-				}).catch(err =>{
-					console.log('表单错误信息：', err);
-				})
+				]
 			}
 		}
 	}
 </script>
+
+<style>
+	.ibanimg {
+	    width: 120rpx;
+	    height: 120rpx;
+	    margin-bottom: 10rpx;
+	}
+</style>
