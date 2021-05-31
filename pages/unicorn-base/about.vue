@@ -3,19 +3,26 @@
 		<scroll-view scroll-y class="scrollPage">
 
 			<view class="UCenter-bg">
-				<image src="../../static/image/1111.jpg" class="png" mode="widthFix" style="border-radius: 50%;"></image>
-				<view class="text-xl margin-top-sm">去水印助手
-					<text class="text-df"> v1.1.0</text>
+				<view  style="  overflow:hidden;
+  display: block;
+  width: 200rpx;
+  height: 200rpx;
+
+  border-radius: 50%;
+">
+					<open-data  mode="widthFix"  type="userAvatarUrl"></open-data>
 				</view>
-				<view class="margin-top-sm">
-					<text>By:农村落魄小青年</text>
+
+				<view class="margin-top-sm"style="margin-top: 40rpx;">
+					<text >By:  <open-data type="userNickName"></open-data></text>
 				</view>
 			</view>
 			<view class="cu-list menu card-menu margin-top-xl margin-bottom-xl shadow-lg radius">
 				<view class="cu-item arrow">
 					<navigator class="content" url="/pages/unicorn-base/me" hover-class="none">
 						<image src="../../static/image/1111.jpg" class="png" mode="aspectFit"></image>
-						<text class="text-grey">关于去水印助手</text>
+						<text class="text-grey">关于我们</text>
+<!--						<text  @click="getUserInfo">请登录</text>-->
 					</navigator>
 				</view>
 				<view class="cu-item arrow"  @tap="showQrcode">
@@ -46,16 +53,45 @@
 	export default {
 		data() {
 			return {
-
+				yonghuwx: [{
+					avatarUrl:'',
+					nickName:''
+				}]
 			}
 		},
+		onLoad(){
+
+			uni.getUserProfile({
+				desc:'Wexin',
+				success: function(infoRes) {
+					console.log(2222,infoRes)
+
+				}
+			});
+		},
+
 		methods: {
+
 			showQrcode:function(){
 				uni.previewImage({
 					urls: ['/static/image/zsm.png'],
 					current: '/static/image/zsm.png' // 当前显示图片的http链接
 				})
 			},
+			getUserInfo(){
+				console.log("aaaa")
+				uni.getUserProfile({
+					desc:'Wexin',     // 这个参数是必须的
+					success:res=>{
+						console.log(res.userInfo)
+						this.yonghuwx = res.userInfo
+
+					},
+					fail:err=>{
+						console.log(err)
+					}
+				})
+			}
 		}
 	}
 </script>
@@ -81,11 +117,15 @@
 		opacity: 0.8;
 	}
 
-	.UCenter-bg image {
-		width: 200rpx;
-		height: 200rpx;
-	}
-
+.png1{
+	overflow: hidden;
+	display: block;
+	width: 200rpx;
+	height: 200rpx;
+	margin: 20rpx;
+	margin-top: 50rpx;
+	border-radius: 50%;
+}
 	.UCenter-bg .gif-wave {
 		position: absolute;
 		width: 100%;

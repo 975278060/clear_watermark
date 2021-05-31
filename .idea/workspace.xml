@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="79fbbfb3-c740-4a23-8195-0f942afd1640" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/unicorn-base/about.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/unicorn-base/about.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/unicorn-base/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/unicorn-base/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/unicorn-base/me.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/unicorn-base/me.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/build/mp-weixin/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/build/mp-weixin/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/build/mp-weixin/common/vendor.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/build/mp-weixin/common/vendor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/build/mp-weixin/pages/unicorn-base/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/build/mp-weixin/pages/unicorn-base/about.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/build/mp-weixin/pages/unicorn-base/about.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/build/mp-weixin/pages/unicorn-base/about.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/build/mp-weixin/pages/unicorn-base/about.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/build/mp-weixin/pages/unicorn-base/about.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/build/mp-weixin/pages/unicorn-base/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/build/mp-weixin/pages/unicorn-base/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/build/mp-weixin/pages/unicorn-base/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/build/mp-weixin/pages/unicorn-base/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/build/mp-weixin/pages/unicorn-base/me.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/build/mp-weixin/pages/unicorn-base/me.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/build/mp-weixin/pages/unicorn-base/me.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/build/mp-weixin/pages/unicorn-base/me.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/build/mp-weixin/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/build/mp-weixin/project.config.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1tJ0hglZ3J6thQal861N0pE0OVO" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="79fbbfb3-c740-4a23-8195-0f942afd1640" name="Default Changelist" comment="" />
+      <created>1622472005606</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1622472005606</updated>
+      <workItem from="1622472006841" duration="5922000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1622478332453">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog/-1920.0.1920.1030/0.0.1536.824@0.0.1536.824" timestamp="1622478332453" />
+    <state x="390" y="143" width="755" height="538" key="find.popup" timestamp="1622473141379">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="390" y="143" width="755" height="538" key="find.popup/-1920.0.1920.1030/0.0.1536.824@0.0.1536.824" timestamp="1622473141379" />
+  </component>
+</project>

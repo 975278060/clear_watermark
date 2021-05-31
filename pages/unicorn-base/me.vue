@@ -1,7 +1,7 @@
 <template>
 	<view style="padding-top:14%">
 
-		<hx-navbar title="关于该小程序" :fixed="true" :background-color="[[28, 187, 180],[141, 198, 63]]" color="#ffffff" />
+		<hx-navbar title="关于全网去水印助手" :fixed="true" :background-color="[[28, 187, 180],[141, 198, 63]]" color="#ffffff" />
 
 		<view class='margin-xl bg-white padding-xl radius shadow-lg'>
 
